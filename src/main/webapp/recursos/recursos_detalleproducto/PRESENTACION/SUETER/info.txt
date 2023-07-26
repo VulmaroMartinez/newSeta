@@ -1,0 +1,17 @@
+Categoria: Suéteres
+
+Nombre: Suéter Tejído
+
+
+Precio: 249.99
+
+Descripcion;
+Descubre nuestro suéter tejido para mujer, una prenda elegante y acogedora que realza tu estilo con 
+encanto artesanal. Confeccionado con delicadeza y pasión por nuestros expertos tejedores, este 
+suéter combina una textura suave y un ajuste perfecto. Su diseño moderno y versátil lo convierte en 
+la opción ideal para cualquier ocasión, desde una tarde casual hasta una salida nocturna. Disfruta de 
+la comodidad y el encanto de este suéter tejido, diseñado para destacar tu belleza y sofisticación 
+en cada paso.
+
+
+STOCK: 15

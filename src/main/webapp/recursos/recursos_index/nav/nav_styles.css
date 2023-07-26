@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+  }
+  
+  .navcorregido {
+    background-color: white;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .navbarizq {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logonavcorre {
+    width: 90px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  
+
+.navbar-linkk {
+    margin-right: 20px; 
+    color: black; 
+    text-decoration: none; 
+  }
+  
+
+  .navbar-linkk:hover {
+    text-decoration: none; 
+    color: black; 
+  }
+  
+  .navbar-linkk.bbigger-font {
+    font-size: 1.2rem; 
+  }

@@ -1,0 +1,23 @@
+Categoria: Ponchos
+
+Nombre: Poncho tejido a mano
+
+
+Precio: 349.99
+
+Descripcion;
+
+¡Descubre nuestro poncho tejido a mano, una obra de arte artesanal que combina comodidad y estilo! 
+Creado con habilidad y amor por nuestros talentosos artesanos, este poncho presenta un diseño único 
+y elegante. Tejido con hilos de alta calidad, ofrece una suavidad increíble y una calidez acogedora para 
+los días fríos. Su versatilidad te permite lucirlo en múltiples ocasiones, desde reuniones informales 
+hasta eventos especiales. Cada detalle de este poncho refleja la autenticidad de la tradición artesanal. 
+Añade un toque de distinción a tu armario con esta prenda atemporal y sostenible.
+
+
+STOCK: 10
+
+
+
+
+

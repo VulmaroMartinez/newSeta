@@ -1,0 +1,17 @@
+Categoria: Blusas
+
+Nombre: Blusa bordada
+
+
+Precio: 179.99
+
+Descripcion:
+Descubre nuestra encantadora blusa bordada al estilo yucateco, una pieza de moda que fusiona 
+tradición y elegancia. Elaborada con cariño por habilidosas manos artesanas de la región, 
+cada detalle de este bordado cuenta una historia de la rica cultura yucateca. Los motivos y colores 
+vibrantes reflejan la belleza de la artesanía local y transmiten la calidez de esta tierra. Su tela ligera y 
+fresca te brindará comodidad durante los días soleados. Ya sea para una ocasión especial o para darle 
+un toque bohemio a tu atuendo diario, esta blusa será el tesoro de tu guardarropa y un tributo a la 
+belleza mexicana.
+
+STOCK: 10
