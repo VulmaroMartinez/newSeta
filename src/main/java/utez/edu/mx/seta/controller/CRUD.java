@@ -27,7 +27,7 @@ public class CRUD extends HttpServlet {
                 String amaterno = req.getParameter("amaterno");
                 String contrasena = req.getParameter("contrasena");
                 String correo = req.getParameter("correo");
-                String estado = req.getParameter("estado");
+                String estatus = req.getParameter("estatus");
                 String calle = req.getParameter("calle");
                 String colonia = req.getParameter("colonia");
                 int    codigo_postal = Integer.parseInt(req.getParameter("codigo_postal"));
@@ -41,7 +41,7 @@ public class CRUD extends HttpServlet {
                 cliente.setAmaterno(amaterno);
                 cliente.setContrasena(contrasena);
                 cliente.setCorreo(correo);
-                cliente.setEstado(estado);
+                cliente.setEstatus(estatus);
                 cliente.setCalle(calle);
                 cliente.setColonia(colonia);
                 cliente.setCodigo_postal(codigo_postal);
@@ -65,7 +65,7 @@ public class CRUD extends HttpServlet {
                 String amaterno1 = req.getParameter("amaterno");
                 String contrasena1 = req.getParameter("contrasena");
                 String correo1 = req.getParameter("correo");
-                String estado1 = req.getParameter("estado");
+                String estatus1 = req.getParameter("estatus");
                 String calle1 = req.getParameter("calle");
                 String colonia1 = req.getParameter("colonia");
                 int codigo_postal1 = Integer.parseInt(req.getParameter("codigo_postal"));
@@ -83,7 +83,7 @@ public class CRUD extends HttpServlet {
                 newInfo.setAmaterno(amaterno1);
                 newInfo.setContrasena(contrasena1);
                 newInfo.setCorreo(correo1);
-                newInfo.setEstado(estado1);
+                newInfo.setEstatus(estatus1);
                 newInfo.setCalle(calle1);
                 newInfo.setColonia(colonia1);
                 newInfo.setCodigo_postal(codigo_postal1);

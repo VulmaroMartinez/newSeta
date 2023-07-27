@@ -57,7 +57,7 @@ public class DaoCliente implements DaoRepository {
                             "amaterno = ?, " +
                             "contrasena = ?, " +
                             "correo = ?, " +
-                            "estado = ?, " +
+                            "estatus = ?, " +
                             "calle = ?, " +
                             "colonia = ?, " +
                             "codigo_postal = ?, " +
@@ -72,7 +72,7 @@ public class DaoCliente implements DaoRepository {
             stmt.setString(3, newInfo.getAmaterno());
             stmt.setString(4, newInfo.getContrasena());
             stmt.setString(5, newInfo.getCorreo());
-            stmt.setString(6, newInfo.getEstado());
+            stmt.setString(6, newInfo.getEstatus());
             stmt.setString(7, newInfo.getCalle());
             stmt.setString(8, newInfo.getColonia());
             stmt.setInt(9, newInfo.getCodigo_postal());
@@ -93,7 +93,7 @@ public class DaoCliente implements DaoRepository {
         Connection con = new MysqlConector().connect();
         try {
             PreparedStatement stmt = con.prepareStatement(
-                    "insert into cliente (nombre, apaterno, amaterno, contrasena, correo, estado, calle, colonia, codigo_postal, localidad, municipio, entidad_federativa, codigo) " +
+                    "insert into cliente (nombre, apaterno, amaterno, contrasena, correo, estatus, calle, colonia, codigo_postal, localidad, municipio, entidad_federativa, codigo) " +
                             "values (?,?,?,?,?,?,?,?,?,?,?,?,sha2(?,224))"
             );
             stmt.setString(1,cliente.getNombre());
@@ -101,7 +101,7 @@ public class DaoCliente implements DaoRepository {
             stmt.setString(3,cliente.getAmaterno());
             stmt.setString(4,cliente.getContrasena());
             stmt.setString(5,cliente.getCorreo());
-            stmt.setString(6,cliente.getEstado());
+            stmt.setString(6,cliente.getEstatus());
             stmt.setString(7,cliente.getCalle());
             stmt.setString(8,cliente.getColonia());
             stmt.setInt(9,cliente.getCodigo_postal());
@@ -161,7 +161,7 @@ public class DaoCliente implements DaoRepository {
                 cliente.setAmaterno(rs.getString("amaterno"));
                 cliente.setContrasena(rs.getString("contrasena"));
                 cliente.setCorreo(rs.getString("correo"));
-                cliente.setEstado(rs.getString("estado"));
+                cliente.setEstatus(rs.getString("estatus"));
                 cliente.setCalle(rs.getString("calle"));
                 cliente.setColonia(rs.getString("colonia"));
                 cliente.setCodigo_postal(rs.getInt("codigo_postal"));
@@ -223,7 +223,7 @@ public class DaoCliente implements DaoRepository {
                 cliente.setAmaterno(rs.getString("amaterno"));
                 cliente.setContrasena(rs.getString("contrasena"));
                 cliente.setCorreo(rs.getString("correo"));
-                cliente.setEstado(rs.getString("estado"));
+                cliente.setEstatus(rs.getString("estatus"));
                 cliente.setCalle(rs.getString("calle"));
                 cliente.setColonia(rs.getString("colonia"));
                 cliente.setCodigo_postal(rs.getInt("codigo_postal"));
@@ -258,7 +258,7 @@ public class DaoCliente implements DaoRepository {
                 cliente.setAmaterno(rs.getString("amaterno"));
                 cliente.setContrasena(rs.getString("contrasena"));
                 cliente.setCorreo(rs.getString("correo"));
-                cliente.setEstado(rs.getString("estado"));
+                cliente.setEstatus(rs.getString("estatus"));
                 cliente.setCalle(rs.getString("calle"));
                 cliente.setColonia(rs.getString("colonia"));
                 cliente.setCodigo_postal(rs.getInt("codigo_postal"));

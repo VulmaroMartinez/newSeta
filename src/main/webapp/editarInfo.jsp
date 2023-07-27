@@ -59,6 +59,11 @@
                             un carácter especial y una longitud mínima de 8 caracteres."
                                    required>
                             <span class="focus-border"></span>
+
+                            <input type="hidden" value="${cliente.getCorreo()}"  name="correo"  >
+
+
+
                         </div>
 
                     </div>
@@ -102,7 +107,7 @@
                             <span class="focus-border"></span>
                         </div>
 
-                        <input type="hidden" name="estado" value="${cliente.getEstado()}">
+                        <input type="hidden" name="estatus" value="${cliente.getEstatus()}">
 
                     </div>
 

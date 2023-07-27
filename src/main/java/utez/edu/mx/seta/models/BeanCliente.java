@@ -9,7 +9,7 @@ public class BeanCliente {
    private String amaterno;
    private String contrasena;
    private String correo;
-   private String estado;
+   private String estatus;
    private String calle;
    private String colonia;
    private int codigo_postal;
@@ -20,6 +20,15 @@ public class BeanCliente {
 
 
     public BeanCliente() {
+    }
+
+
+    public String getEstatus() {
+        return estatus;
+    }
+
+    public void setEstatus(String estatus) {
+        this.estatus = estatus;
     }
 
     public int getId_cliente() {
@@ -68,14 +77,6 @@ public class BeanCliente {
 
     public void setCorreo(String correo) {
         this.correo = correo;
-    }
-
-    public String getEstado() {
-        return estado;
-    }
-
-    public void setEstado(String estado) {
-        this.estado = estado;
     }
 
     public String getCalle() {

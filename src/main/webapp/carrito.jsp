@@ -87,7 +87,7 @@
                             <tr>
                                 <th>ITEM</th>
                                 <th>NOMBRES</th>
-                                <th>DESCRIPCION</th>
+                                <th>PRODUCTO</th>
                                 <th>PRECIO</th>
                                 <th>CANTIDAD</th>
                                 <th>SUBTOTAL</th>
@@ -106,10 +106,8 @@
 
 
                                     <th>${car.getItem()}</th>
-                                    <th>${car.getNombres()}
-                                        <img src="ControllerIMG?id_producto=${car.getId_producto()}" width="100" height="100">
-                                    </th>
-                                    <th>${car.getDescripcion()}</th>
+                                    <th>${car.getNombres()}</th>
+                                    <th> <img src="ControllerIMG?id_producto=${car.getId_producto()}" width="100" height="100"></th>
                                     <th>${car.getPrecioCompra()}MXN</th>
                                     <th>${car.getCantidad()}</th>
                                     <th>${car.getSubTotal()}MXN</th>
